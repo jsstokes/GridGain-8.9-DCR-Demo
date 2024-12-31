@@ -59,7 +59,7 @@
                                            Simply using localhost or 127.0.0.1 will NOT WORK
                                     -->
                                     <!-- Addresses of the remote data center's receiver HUB -->
-                                    <property name="receiverAddresses" value="192.168.177.216:50000"/>
+                                    <property name="receiverAddresses" value="#{systemEnvironment[MY_IP_ADDRESS]}:50000"/>
                                 </bean>
                             </property>
                         </bean>

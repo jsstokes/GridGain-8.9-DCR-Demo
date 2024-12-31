@@ -34,13 +34,12 @@ to see the data replicated to DC2
 2. Unzip the downloaded file and move to your desired location
     * I typically keep these on my Desktop
 3. Download and Install [Control Center](https://www.gridgain.com/media/control-center/gridgain-control-center-on-premise-2024.4.zip)
-4. Alter the dc1/hub-node.xml file - update the value of the receiverAddresses line to reflect your local IP address<br/>
-replace xxx.xxx.xxx.xxx below with your actual local ipaddress
-
-__Note__: Simply using localhost or 127.0.0.1 does __NOT__ work 
-
-`<property name="receiverAddresses" value="xxx.xxx.xxx.xxx:50000"/>`
-
+4. In the terminal where you will be executing the DC1 Sender Node, please set an environment variable name MY_IP_ADDRESS to 
+the value of your machines IP Address.  The following command works on Mac OS v14.7.1 (Sonoma)
+```
+   export MY_IP_ADDRESS=`ipconfig getifaddr en0`
+```
+__NOTE:__ Note that the above command use back ticks (backquote, grave, or grave accent)
 
 ## Starting the instances
 __<u>BEFORE PROCEEDING:</u>__ Make sure that GridGain is configured properly and that the $GRIDGAIN_HOME 

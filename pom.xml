@@ -12,6 +12,14 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <gridgain.version>8.9.7</gridgain.version>
     </properties>
+    <repositories>
+        <repositories>
+                <repository>
+                    <id>GridGain External Repository</id>
+                    <url>https://www.gridgainsystems.com/nexus/content/repositories/external/</url>
+                </repository>
+    </repositories>
 
 </project>

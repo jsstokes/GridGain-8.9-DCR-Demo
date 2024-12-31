@@ -34,6 +34,12 @@ to see the data replicated to DC2
 2. Unzip the downloaded file and move to your desired location
     * I typically keep these on my Desktop
 3. Download and Install [Control Center](https://www.gridgain.com/media/control-center/gridgain-control-center-on-premise-2024.4.zip)
+4. Alter the dc1/hub-node.xml file - update the value of the receiverAddresses line to reflect your local IP address<br/>
+replace xxx.xxx.xxx.xxx below with your actual local ipaddress
+
+Note: Simply using localhost or 127.0.0.1 do __NOT__ work 
+
+`<property name="receiverAddresses" value="xxx.xxx.xxx.xxx:50000"/>`
 
 
 ## Starting the instances

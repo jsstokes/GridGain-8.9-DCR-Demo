@@ -53,7 +53,11 @@
                                 <bean class="org.gridgain.grid.dr.DrSenderConnectionConfiguration">
                                     <!-- Remote data center ID where cache data has to be replicated -->
                                     <property name="dataCenterId" value="2"/>
-
+                                    <!--
+                                           CHANGE THE LINE BELOW
+                                           receiverAddresses must have a value of YOUR_LOCAL_IP_ADDRESS:50000
+                                           Simply using localhost or 127.0.0.1 will NOT WORK
+                                    -->
                                     <!-- Addresses of the remote data center's receiver HUB -->
                                     <property name="receiverAddresses" value="192.168.177.216:50000"/>
                                 </bean>

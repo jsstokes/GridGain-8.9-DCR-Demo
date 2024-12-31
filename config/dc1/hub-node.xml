@@ -55,7 +55,7 @@
                                     <property name="dataCenterId" value="2"/>
 
                                     <!-- Addresses of the remote data center's receiver HUB -->
-                                    <property name="receiverAddresses" value="localhost:50000"/>
+                                    <property name="receiverAddresses" value="192.168.177.216:50000"/>
                                 </bean>
                             </property>
                         </bean>

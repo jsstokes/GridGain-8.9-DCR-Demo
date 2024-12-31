@@ -12,6 +12,7 @@
     <import resource="cache.xml"/>
 
     <bean id="ignite.cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
+<!--        <property name="clusterName" value="DCR-CLuster-1"/>-->
         <property name="cacheConfiguration" ref="caches"/>
 
         <property name="clientMode" value="false"/>

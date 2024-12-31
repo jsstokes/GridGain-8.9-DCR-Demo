@@ -24,8 +24,27 @@ to see the data replicated to DC2
       [GridGain Nebula](https://portal.gridgain.com/)
 
 ## Setup
-1. Download [GridGain Ultimate Edition](https://www.gridgain.com/media/gridgain-ultimate-8.9.15.zip)
+1. Request a license keys for
+   * Ultimate Edition
+   * Control Control Center (if not using Nebula)
+   * GridGain employees can submit the license requests here [GridGain IT Support Portal](https://it.gridgain.com/portal/22)
+     * Select "License Requests" -> "License Request"
+   * External Users can use [Contact Us](https://www.gridgain.com/contact) and submit a request to the sales team
+2. Download [GridGain Ultimate Edition](https://www.gridgain.com/media/gridgain-ultimate-8.9.15.zip)
 2. Unzip the downloaded file and move to your desired location
     * I typically keep these on my Desktop
-3. Request a license key file from Ultimate Edition
-    * 
+3. Download and Install [Control Center](https://www.gridgain.com/media/control-center/gridgain-control-center-on-premise-2024.4.zip)
+
+
+## Starting the instances
+__<u>BEFORE PROCEEDING:</u>__ Make sure that GridGain is configured properly and that the $GRIDGAIN_HOME 
+environment variable is properly set.
+
+### Start the DC1 Instance
+1. Open a terminal prompt and cd to the _config_ directory in this project
+2. Start the Data Node for DC1
+```
+   % $GRIDGAIN_HOME/bin/ignite.sh data-node.xml
+```
+3. 
+ 

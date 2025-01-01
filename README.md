@@ -2,7 +2,7 @@
 
 ## Purpose
 This repo is intended to provide directions and artifacts required to setup
-& demonstration GridGain Ultimates's Data Center Replication feature.
+& demonstrate GridGain Ultimates's Data Center Replication feature.
 
 At the end of this tutorial you will have:
 1. Created and configured 4 __LOCAL__ GridGain nodes:

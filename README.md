@@ -45,6 +45,8 @@ __NOTE:__ Note that the above command use back ticks (backquote, grave, or grave
 __<u>BEFORE PROCEEDING:</u>__ Make sure that GridGain is configured properly and that the $GRIDGAIN_HOME 
 environment variable is properly set.
 
+If you are on a Mac, you can use [these scripts](MAC-SCRIPTS.md) to launch the instances
+
 ### Start the DC1 Data Instance
 1. Open a terminal prompt and cd to the __config/dc1__ directory in this project
 2. Start the Data Node for DC1

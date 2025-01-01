@@ -1,0 +1,1 @@
+# Shortcut Scripts for Mac
